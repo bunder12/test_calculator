@@ -55,6 +55,7 @@ const Button = ({ value, index }) => {
           all: cal.all,
         });
       }
+      localStorage.removeItem("all");
     };
 
     const handleNumber = () => {
